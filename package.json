@@ -2,7 +2,7 @@
   "name": "waitingtobeknown",
   "version": "1.0.0",
   "description": "",
-  "main": "script.js",
+  "main": "server.js",
   "dependencies": {
     "bcrypt": "^0.8.6",
     "body-parser": "^1.15.0",
