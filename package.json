@@ -1,0 +1,30 @@
+{
+  "name": "waitingtobeknown",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "dependencies": {
+    "bcrypt": "^0.8.6",
+    "body-parser": "^1.15.0",
+    "dotenv": "^2.0.0",
+    "ejs": "^2.4.1",
+    "morgan": "^1.7.0",
+    "path": "^0.12.7",
+    "pg-promise": "^4.0.5",
+    "request": "^2.72.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jvollherbst/Waiting-to-be-Known.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jvollherbst/Waiting-to-be-Known/issues"
+  },
+  "homepage": "https://github.com/jvollherbst/Waiting-to-be-Known#readme"
+}
