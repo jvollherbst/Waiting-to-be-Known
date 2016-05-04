@@ -22,12 +22,9 @@ app.set('view engine', 'ejs')
 // app.use('/users', require(path.join(__dirname, '/routes/users')));
 
 app.get('/',  (req, res) => {
-  res.render('index')
+  res.render('pages/index')
 })
 
-app.get('*',  (req, res) => {
-  res.render('index')
-})
 
 app.use('/se', require(path.join(__dirname, '/routes/se')));
 const port = process.env.PORT || 3000;
