@@ -6,6 +6,7 @@ const logger     = require('morgan');
 const bodyParser = require('body-parser');
 const path       = require('path');
 const request    = require('request');
+const db         = require('./db/pg');
 
 const app        = express();
 
@@ -23,7 +24,8 @@ app.set('view engine', 'ejs')
 
 app.get('/',  (req, res) => {
   res.render('pages/index')
-})
+});
+
 
 
 app.use('/se', require(path.join(__dirname, '/routes/se')));
