@@ -8,11 +8,7 @@ const request    = require('request');
 const bodyParser = require('body-parser');
 
 se.get( '/', db.showStars, (req, res) => {
-  // res.render('se/se', { stars: res.rows })
-  // console.log(res.rows);
-  // res.render( 'se/se', { data: res.rows });
   res.send(res.rows)
-  console.log(res.rows);
 })
 
 

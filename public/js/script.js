@@ -91,9 +91,9 @@ function starSubset() {
         starData.push(x);
       })
 
-      console.log('this is starData after the forEach', starData[0]);
+      console.log('this is starData after the forEach', starData);
+      hrDiagram(starData)
     })
-      // hrDiagram(starData)
   }
 starSubset()
 

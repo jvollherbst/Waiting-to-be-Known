@@ -7,3 +7,5 @@ INSERT INTO stars (starname, appmag, absmag, bv, radius) VALUES ('Canopus', -0.7
 INSERT INTO stars (starname, appmag, absmag, bv, radius) VALUES ('Arcturus', -0.04, 0.2, 1.23, 15.6);
 
 INSERT INTO stars (starname, appmag, absmag, bv, radius) VALUES ('Vega', 0, 0.6, 0, 36.8);
+
+INSERT INTO stars (starname, appmag, absmag, bv, radius) VALUES ('Rigel', 0.12, -8.1, -0.03, 14.7);
