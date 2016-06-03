@@ -77,7 +77,6 @@ $(document).ready(function(){
 
 
 function starSubset() {
-  console.log('a');
 
   $.get('/se')
     .done((data) => {
@@ -99,7 +98,7 @@ starSubset()
 
 
   // function amnhData() {
-  //   $.get( '/se' )
+  //   $.get( '/se/amnh' )
   //     .done(function( data ) {
   //       console.log(data);
   //       let values = [];
